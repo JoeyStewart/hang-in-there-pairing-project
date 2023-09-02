@@ -32,7 +32,7 @@ ______________________________________________________
 
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
-
+![Poster-Pairing-Project](https://github.com/JoeyStewart/hang-in-there-pairing-project/assets/140363136/c24c0a22-a1b5-40d6-b68d-a57c34dd38fd)
 ### Context:
 [//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
 

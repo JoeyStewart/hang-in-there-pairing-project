@@ -137,13 +137,10 @@ function randomPoster() {
   var getRandomImageIndex = getRandomIndex(images);
   var getRandomTitleIndex = getRandomIndex(titles);
   var getRandomQuoteIndex = getRandomIndex(quotes);
-  var randomPoster = images[getRandomImageIndex];
-  var randomTitle = titles[getRandomTitleIndex];
-  var randomQuote = quotes[getRandomQuoteIndex];
-  posterImg.src = randomPoster;
-  title.innerText = randomTitle;
-  quote.innerText = randomQuote;
-  currentPoster = createPoster(randomPoster, randomTitle, randomQuote);
+  posterImg.src = images[getRandomImageIndex];
+  title.innerText = titles[getRandomTitleIndex];
+  quote.innerText = quotes[getRandomQuoteIndex];
+  currentPoster = createPoster(images[getRandomImageIndex], titles[getRandomTitleIndex], quotes[getRandomQuoteIndex]);
 }
 
 function makePosterForm() {
@@ -166,13 +163,11 @@ function showSaved() {
   mainPoster.classList.add("hidden");
   savedPosterGrid.innerHTML = "";
   for (var i = 0; i < savedPosters.length; i++) {
-    savedPosterGrid.innerHTML += `
-      <article class="mini-poster" id=${savedPosters[i].id}>
+    savedPosterGrid.innerHTML += `<article class="mini-poster" id=${savedPosters[i].id}>
         <img src=${savedPosters[i].imageURL}>
         <h2>${savedPosters[i].title}</h2>
         <h4>${savedPosters[i].quote}</h4>
-      </article>
-    `;
+      </article>`;
   }
 } 
 

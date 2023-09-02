@@ -1,46 +1,31 @@
-# Hang In There
+### Hang in There  
 
-A boilerplate repo. 
-
-## Set Up
-
-1. One teammate: fork this repository
-2. Clone down your new, forked repo
-3. cd into the repository
-4. Open it in your text editor
-5. Add all project partners and your assigned instructor as collaborators on the repository
-
-Project spec & rubric can be found [here](https://frontend.turing.edu/projects/module-1/hang-in-there.html)
-
-To view your project:
-
-1. In your terminal, navigate to your project repo
-2. Run the command `open index.html`
-  
-______________________________________________________  
-# README Template  
-Before turning this project in, erase this line and everything above it and fill in the info below.  
-______________________________________________________  
-
-# Hang in There  
-
-### Abstract:
-[//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
+# Abstract:
+We built a simple, user-friendly application that generates and displays random motivational posters. If the user has favorites, they can save the posters to their library and delete the posters they no longer wish to keep. The user can also input their own image, title and quote to create their own unique poster. The app solves the problem of creating unique motivational posters that could be saved by the user for self-affirmations and positivity!
 
 ### Installation Instructions:
-[//]: <> (What steps does a person have to take to get your app cloned down and running?)
+## To install and make your own posters using Terminal
+- Fork and clone this repository to your preferred directory
+- Type `cd hang-in-there-pairing-project` to move into root directory
+- Open the page by typing `git open index.html`
 
 ### Preview of App:
-[//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
-![Poster-Pairing-Project](https://github.com/JoeyStewart/hang-in-there-pairing-project/assets/140363136/c24c0a22-a1b5-40d6-b68d-a57c34dd38fd)
+[Poster-Pairing-Project](https://github.com/JoeyStewart/hang-in-there-pairing-project/assets/140363136/c24c0a22-a1b5-40d6-b68d-a57c34dd38fd)
+
 ### Context:
-[//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
+We received the project with five days to complete. We just completed week 2 of our first module. Accumulatively we worked on the project for 20-25 hours. 
 
 ### Contributors:
-[//]: <> (Who worked on this application? Link to their GitHubs.)
+[Joey Stewart](https://github.com/JoeyStewart)
+[Bobby Steckline](https://github.com/rjsturing)
+2308 FE Module 1
 
 ### Learning Goals:
-[//]: <> (What were the learning goals of this project? What tech did you work with?)
+Learning how to use HTML, CSS, and JS and how they interact with the DOM to create a useable application was a goal for us. We used git and utilized branches to isolate features being worked on so we could pull down previous iterations if needed. We also learned how to navigate Github and merge conflicts. It was very beneficial to work through the project and to solidify our knowledge that we have learned so far. 
 
 ### Wins + Challenges:
-[//]: <> (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
+We were able to complete iterations to have a functional application for the user to interact with. Seeing how the grid connects hidden CSS and utilizes the DOM was a challenge but also a win when we figured it out. 
+
+A challenge that we faced is utilizing all the concepts and how they work together while trying fully understanding them given we haven't completed some of the lessons. 
+
+Collaboration was important as we made sure to establish our DTR expectations. 
